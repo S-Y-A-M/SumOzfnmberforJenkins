@@ -20,8 +20,9 @@ pipeline {
 
         stage('Test') {
             steps {
-                sh 'npm test'
-            }
+        sh 'chmod -R +x node_modules/.bin'
+        sh 'npx jest'
+    }
         }
     }
 }
