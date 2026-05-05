@@ -1,0 +1,24 @@
+{
+  "name": "sumozfnmberforjenkins",
+  "version": "1.0.0",
+  "description": "",
+  "main": "sum.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/S-Y-A-M/SumOzfnmberforJenkins.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/S-Y-A-M/SumOzfnmberforJenkins/issues"
+  },
+  "homepage": "https://github.com/S-Y-A-M/SumOzfnmberforJenkins#readme",
+  "dependencies": {
+    "jest": "^30.3.0"
+  }
+}
