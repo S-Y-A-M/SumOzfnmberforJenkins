@@ -8,7 +8,7 @@ pipeline {
     stages {
         stage('Checkout') {
             steps {
-                git 'https://github.com/S-Y-A-M/SumOzfnmberforJenkins'
+                git 'git branch: 'main', url: 'https://github.com/S-Y-A-M/SumOzfnmberforJenkins''
             }
         }
 
