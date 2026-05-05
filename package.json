@@ -4,8 +4,9 @@
   "description": "",
   "main": "sum.js",
   "scripts": {
-    "test": "npx jest"
+    "test": "jest --ci --reporters=default --reporters=jest-junit"
   },
+
   "repository": {
     "type": "git",
     "url": "git+https://github.com/S-Y-A-M/SumOzfnmberforJenkins.git"
@@ -20,5 +21,8 @@
   "homepage": "https://github.com/S-Y-A-M/SumOzfnmberforJenkins#readme",
   "dependencies": {
     "jest": "^30.3.0"
+  },
+  "devDependencies": {
+    "eslint": "^10.3.0"
   }
 }

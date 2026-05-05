@@ -18,11 +18,22 @@ pipeline {
             }
         }
 
+        stage('Lint') {
+           steps {
+              sh 'npx eslint .'
+            }
+        }
+
         stage('Test') {
             steps {
-        sh 'chmod -R +x node_modules/.bin'
-        sh 'npx jest'
-    }
+              sh 'chmod -R +x node_modules/.bin'
+              sh 'npx jest'
+            }
+            post {
+              always {
+                 junit 'reports/junit.xml'
+                }
+            }
         }
     }
 }
