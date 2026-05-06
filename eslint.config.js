@@ -7,7 +7,7 @@ module.exports [
     },
     rules: {
       semi: ["error", "always"],
-      "no-unused-vars": "warn"
+      "no-unused-vars": "error"
     }
   }
 ];
