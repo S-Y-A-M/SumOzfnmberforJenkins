@@ -6,6 +6,10 @@
   "scripts": {
     "test": "jest --ci --reporters=default --reporters=jest-junit"
   },
+  "jest-junit": {
+  "outputDirectory": "reports",
+  "outputName": "junit.xml"
+},
 
   "repository": {
     "type": "git",
