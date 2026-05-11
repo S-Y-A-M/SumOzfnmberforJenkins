@@ -3,7 +3,7 @@ function sum (a,b){
    let add = a+b
    return add
 }
-console.log(sum(2,5))
+console.log(sum(8,5))
 
 
 module.exports = sum;
